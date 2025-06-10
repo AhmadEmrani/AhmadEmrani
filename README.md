@@ -12,15 +12,13 @@
 * Telegram: [@Ahmad_emrani](https://t.me/Ahmad_emrani)
 * Email: mranyahmd9@gmail.com
 
-### 🚀 Most Used Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadEmrani&layout=compact&theme=tokyonight)
-
-
 ### 🚀 Contributions in the Last Year
 
-![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=AhmadEmrani&show=contributions&theme=tokyonight)
+![Ahmad Emrani's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AhmadEmrani&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
 
+### 🚀 Most Used Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadEmrani&layout=compact&theme=radical)
 
 ---
 Thanks for visiting my profile! Feel free to connect or reach out 🚀
