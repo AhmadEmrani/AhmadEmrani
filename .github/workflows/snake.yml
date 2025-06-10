@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
@@ -26,3 +31,5 @@ jobs:
           author_email: github-actions@github.com
           message: "Generate snake contribution graph"
           add: "./dist/github-contribution-grid-snake.svg"
+          push: true
+          token: ${{ secrets.GITHUB_TOKEN }}
