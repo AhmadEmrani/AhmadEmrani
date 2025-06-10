@@ -14,11 +14,11 @@
 
 ### 🚀 Contributions in the Last Year
 
-![Ahmad Emrani's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AhmadEmrani&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+![Ahmad Emrani's GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AhmadEmrani&theme=dark)
 
 ### 🚀 Most Used Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadEmrani&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadEmrani&layout=compact&theme=dark)
 
 ---
 Thanks for visiting my profile! Feel free to connect or reach out 🚀
