@@ -18,7 +18,7 @@
 
 ### 🐍 Contribution Snake
 
-![snake gif](https://github.com/AhmadEmrani/AhmadEmrani/blob/output/github-contribution-grid-snake.svg)
+![Snake Animation](dist/github-contribution-grid-snake.svg)
 
 ---
 
