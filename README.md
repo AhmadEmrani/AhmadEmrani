@@ -11,12 +11,10 @@
 
 ### 📬 How to reach me
 
-* Telegram: [@YourTelegramHandle](https://t.me/YourTelegramHandle)
-* Email: [your.email@example.com](mailto:your.email@example.com)
+* Telegram: [@YourTelegramHandle](https://t.me/Ahmad_emrani)
+* Email: [your.email@example.com](mailto:mranyahmd9@gmail.com)
 
-### 📈 GitHub Stats
 
-![Ahmad's GitHub stats](https://github-readme-stats.vercel.app/api?username=AhmadEmrani\&show_icons=true\&theme=tokyonight)
 
 ### 🚀 Most Used Languages
 
