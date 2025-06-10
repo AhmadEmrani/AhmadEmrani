@@ -9,7 +9,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # اضافه کردن دسترسی write برای GITHUB_TOKEN
+      contents: write # دسترسی برای نوشتن
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -25,6 +25,16 @@ jobs:
           github_user_name: AhmadEmrani
           outputs: |
             ./dist/github-contribution-grid-snake.svg
+          dead_cell_strategy: sparse # برای پیوسته کردن مار
+          color_snake: "#FFFF00" # مار زرد
+          color_background: "#333333" # پیش‌زمینه خاکستری تیره
+          color_grid: "#000000" # محل‌های خالی مشکی
+          color_dead: "#000000" # سلول‌های مرده مشکی
+          color_map: |
+            # Your contribution level colors
+            1-10: "#00FF00" # فعالیت‌های کم تا متوسط سبز
+            11-20: "#32CD32" # فعالیت‌های بیشتر سبز تیره‌تر
+            21-50: "#228B22" # فعالیت‌های بالا سبز جنگلی
 
       - name: Push Snake to GitHub
         uses: EndBug/add-and-commit@v9
