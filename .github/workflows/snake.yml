@@ -1,42 +1,43 @@
-name: Generate Snake Animation
+name: Generate Animation for AhmadEmrani
 
 on:
+  # Run every 6 hours
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
+    - cron: "0 */6 * * *"
+  # Allows manual trigger
   workflow_dispatch:
+  # Run on push to master
+  push:
+    branches:
+      - master
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
     permissions:
-      contents: write # دسترسی برای نوشتن
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: Generate GitHub Contribution Snake
-        uses: Platane/snk@v3
+      # Generate snake animation for AhmadEmrani
+      - name: Generate github-contribution-grid-snake.svg
+        uses: tohidnoori/snk/svg-only@v3
         with:
           github_user_name: AhmadEmrani
           outputs: |
-            ./dist/github-contribution-grid-snake.svg
-          dead_cell_strategy: sparse # برای پیوسته کردن مار
+            dist/github-contribution-grid-snake.svg
           color_snake: "#FFFF00" # مار زرد
           color_background: "#333333" # پیش‌زمینه خاکستری تیره
           color_grid: "#000000" # محل‌های خالی مشکی
           color_dead: "#000000" # سلول‌های مرده مشکی
-          # حذف color_map برای جلوگیری از تداخل
+          color_commits: "#00FF00" # کامیت‌ها سبز
+          dead_cell_strategy: sparse # برای پیوسته کردن مار
 
-      - name: Push Snake to GitHub
-        uses: EndBug/add-and-commit@v9
+      # Push to output branch
+      - name: Push github-contribution-grid-snake.svg to the output branch
+        uses: tohidnoori/ghaction-github-pages@v3.1.0
         with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "Generate snake contribution graph"
-          add: "./dist/github-contribution-grid-snake.svg"
-          push: true
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
