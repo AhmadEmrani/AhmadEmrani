@@ -16,10 +16,11 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadEmrani&layout=compact&theme=tokyonight)
 
-### 🐍 Contribution Snake
 
-![Snake Animation](dist/github-contribution-grid-snake.svg)
+### 🚀 Contributions in the Last Year
+
+![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=AhmadEmrani&show=contributions&theme=tokyonight)
+
 
 ---
-
 Thanks for visiting my profile! Feel free to connect or reach out 🚀
