@@ -6,7 +6,7 @@
 
 * 💻 I’m currently focused on **backend development**
 * 📊 I love working on **data-related projects**
-* 🧠 Always learning something new in the world of code
+* 🧠 Always learning something new 
 * 🤝 Looking to collaborate on innovative backend/data projects
 
 ### 📬 How to reach me
