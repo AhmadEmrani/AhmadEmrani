@@ -32,7 +32,6 @@
   <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://simpleicons.org/icons/django.svg" alt="django" width="40" height="40"/> </a> 
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://ejs.co/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js13k.png" alt="ejs" width="40" height="40"/> </a> 
   <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> 
 </p>
 
