@@ -12,18 +12,7 @@
 * Telegram: [@Ahmad_emrani](https://t.me/Ahmad_emrani)
 * Email: mranyahmd9@gmail.com
 
-### 🚀 Contributions and Languages
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AhmadEmrani&theme=dark" alt="Ahmad Emrani's GitHub Stats" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadEmrani&layout=compact&theme=dark" alt="Top Langs" />
-    </td>
-  </tr>
-</table>
 
 ### 🛠️ Languages and Tools
 
